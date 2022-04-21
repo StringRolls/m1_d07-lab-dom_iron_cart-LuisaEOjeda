@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 60em;
+  font-family: 'Roboto Mono', sans-serif;
+  line-height: 1.5;
+  color: #2d354c;
+}
+
+h1,
+h2,
+.cta {
+  text-align: center;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+th,
+td,
+button,
+input {
+  padding: 0.75em 1em;
+}
+
+table input[type='number'] {
+  max-width: 4em;
+}
+
+h1,
+h2,
+.calculate-total {
+  text-align: center;
+}
+
+table#cart {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table#cart th,
+table#cart td {
+  padding: 0.5em;
+}
+
+table#cart td {
+  border: 1px solid #dadada;
+}
+
+table#cart tfoot {
+  background: #eee;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-calculate,
+.bt-create,
+.btn-remove {
+  color: #fff;
+}
+
+.btn-calculate {
+  background-color: #2cc5fa;
+  border-color: #2cc5fa;
+}
+
+.btn-create {
+  background-color: #90ee90;
+  border-color: #90ee90;
+}
+
+.btn-remove {
+  background-color: #f27471;
+  border-color: #cf000f;
+}
